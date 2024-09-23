@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Pop-ups (and new tabs) blocker",
+  "version": "0.0.1",
+  "description": "A protective tool that temporarily blocks unwanted pop-ups (and new tabs) while you browse.",
+  "permissions": [
+    "storage",
+    "windows"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
